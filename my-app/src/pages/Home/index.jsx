@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   NavBar
 } from '../../components/index.js';
@@ -6,8 +5,9 @@ import {
 export const Home = () => {
   // Home Page: container for every page
   return (
-    <React.Fragment>
+    <div>
       <NavBar />
-    </React.Fragment>
+      THIS IS HOME
+    </div>
   )
 };

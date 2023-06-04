@@ -1,4 +1,5 @@
 import './css/App.css';
+import './css/tailwind.css';
 import { Routes, Route } from 'react-router-dom';
 import {
   About,

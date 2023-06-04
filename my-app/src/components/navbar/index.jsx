@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
-    <div className="navbar-container">
-      <nav className="navbar">
+    <div class="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
+      <nav class="text-3xl text-gray-700 font-bold mb-5">
         <ul className="navbar-list">
           <li>
             <Link to="/">Home</Link>
@@ -12,7 +12,7 @@ export const NavBar = () => {
             <Link to="/projects">Projects</Link>
           </li>
           <li>
-          <Link to="/about">About</Link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </nav>

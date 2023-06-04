@@ -1,6 +1,12 @@
+import {
+  NavBar
+} from '../../components/index.js';
 
 export const About = () => {
   return (
-    <div>THIS IS ABOUT</div>
+    <div>
+      <NavBar />
+      THIS IS ABOUT
+    </div>
   )
 };
