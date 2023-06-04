@@ -1,6 +1,6 @@
 
 export const Projects = () => {
   return (
-    <>THIS IS PROJECTS</>
+    <div>THIS IS PROJECTS</div>
   )
 };

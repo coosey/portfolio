@@ -1,8 +1,13 @@
-
+import React from 'react';
+import {
+  NavBar
+} from '../../components/index.js';
 
 export const Home = () => {
   // Home Page: container for every page
   return (
-    <>THIS IS HOME</>
+    <React.Fragment>
+      <NavBar />
+    </React.Fragment>
   )
 };
