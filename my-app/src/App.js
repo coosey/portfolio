@@ -1,5 +1,5 @@
-import './css/App.css';
-import './css/tailwind.css';
+import './assets/css/App.css';
+import './assets/css/tailwind.css';
 import { Routes, Route } from 'react-router-dom';
 import {
   About,
