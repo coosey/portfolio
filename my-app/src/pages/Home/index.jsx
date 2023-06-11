@@ -1,6 +1,7 @@
 import {
   NavBar,
-  Hero
+  Hero,
+  Header,
 } from '../../components/index.js';
 
 export const Home = () => {
@@ -8,6 +9,7 @@ export const Home = () => {
   return (
     <div>
       <NavBar />
+      <Header />
       <Hero />
       THIS IS HOME
     </div>
