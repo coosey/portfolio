@@ -6,15 +6,21 @@ import {
   Home,
   Projects,
 } from './pages/index';
+import {
+  NavBar,
+  Footer,
+} from './components/index';
 
 function App() {
   return (
-    <div className="App">
+    <div class="bg-secondary">
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

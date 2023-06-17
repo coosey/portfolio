@@ -11,7 +11,8 @@ module.exports = {
         'xl': {'min': '1200px'},
       },
       colors: {
-        background: '#393D47',
+        primary: '#393D47',
+        secondary: '#777f92'
       }
     },
   },
