@@ -6,3 +6,4 @@ export * from './button';
 export * from './project';
 export * from './footer';
 export * from './section-title';
+export * from './icon';

@@ -1,3 +1,5 @@
+import { Icon } from '.././index';
+import { SOCIALS } from '../../data/socials';
 
 export const Header = () => {
   return (
@@ -12,6 +14,13 @@ export const Header = () => {
         <p class="text-2xl sm:text-2xl">
           I'm a former Scientist turned Engineer
         </p>
+        <div class="flex flex-row justify-center mt-5">
+          {SOCIALS?.links?.map((item) => (
+            <div class="mr-5">
+              <Icon icon={item?.icon} link={item?.link} />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )
