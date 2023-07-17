@@ -5,10 +5,11 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'sm': {'max': '767px'},
-        'md': {'min': '768px', 'max': '991px'},
-        'lg': {'min': '992px', 'max': '1199px'},
-        'xl': {'min': '1200px'},
+        'sm': {'min': '640px'},
+        'md': {'min': '768px'},
+        'lg': {'min': '1024px'},
+        'xl': {'min': '1280px'},
+        '2xl': {'min': '1536px'},
       },
       colors: {
         primary: '#393D47',

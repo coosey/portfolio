@@ -4,18 +4,18 @@ import {
 
 export const Hero = () => {
   return (
-    <div class="container mx-auto items-center grid md:grid-cols-2 justify-between lg:grid-cols-2 xl:grid-cols-2 xl:text-2xl">
+    <div class="items-center grid justify-between mt-20 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:text-2xl">
       <div class="xl:max-w-md">
-        <img src={require("../../assets/images/profile.png")} alt="Matthew Nguyen" class="rgw-[80%] md:mx-auto xl:grid-cols-2" />
+        <img src={require("../../assets/images/profile.png")} alt="Matthew Nguyen" class="rgw-[80%] mx-auto xl:grid-cols-2" />
       </div>
-      <div class="sm:mt-10 ml-10">
+      <div class="text-lg md:text-xl sm:mt-10 ml-10">
         <div class="pb-5 md:pb-0">
           <p class="pb-3">
             I am a Frontend Developer & my experiences are currently specialized in aviation - developing and maintaining
-            an airline PSS system.
+            an airline PSS.
           </p>
           <p class="pb-3">
-            However, I am always trying to expand my knowledge and learn about new technology and exploring innovative
+            However, I am always trying to expand my knowledge and learn about new technology and explore innovative
             ways to create a better and exceptional user experience.
           </p>
         </div>

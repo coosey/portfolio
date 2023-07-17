@@ -5,3 +5,4 @@ export * from './header';
 export * from './button';
 export * from './project';
 export * from './footer';
+export * from './section-title';

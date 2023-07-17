@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
-    <div class="container mx-auto">
-      <div class="bg-primary rounded-xl shadow-md p-6 m-6 mt-0 mb-10">
+    <div>
+      <div class="bg-primary max-w-screen-xl shadow-md p-6 m-6 mt-0 mb-10">
         <nav class="text-3xl text-white font-bold">
-          <ul class="relative flex h-10 items-center space-x-7">
-            <li>
+          <ul class="flex flex- h-10 items-center space-x-7">
+            <li class="flex-1">
               <Link to="/">Home</Link>
             </li>
             <li>
