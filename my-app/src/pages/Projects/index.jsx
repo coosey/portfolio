@@ -6,7 +6,7 @@ import { SectionTitle } from '../../components/index';
 export const Projects = () => {
   return (
     <div class="container m-auto">
-      <div class="flex justify-center">
+      <div class="flex justify-center pb-20">
         <SectionTitle title="Experiences" width="210px" />
       </div>
       <div class="m-auto ml-5 mr-5 bg-white flex flex-col flex-wrap rounded-md border p-2">

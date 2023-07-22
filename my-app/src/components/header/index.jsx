@@ -3,16 +3,16 @@ import { SOCIALS } from '../../data/socials';
 
 export const Header = () => {
   return (
-    <section class="text-center px-5 py-5 sm:flex justify-center">
+    <section class="flex flex-col justify-center text-center px-5 py-5 h-min sm:h-screen">
       <div class="pb-5 md:pb-0">
-        <p class="text-3xl lg:text-4xl pb-4">
-          Hello! My name is
+        <p class="text-3xl lg:text-4xl pb-4 font-nav-light">
+          Hello! I'm
         </p>
-        <p class="text-6xl pb-4">
+        <p class="text-6xl md:text-7xl lg:text-8xl pb-4 font-centra font-medium">
           Matthew Nguyen
         </p>
-        <p class="text-2xl sm:text-2xl">
-          I'm a former Scientist turned Engineer
+        <p class="text-3xl lg:text-4xl font-nav-light">
+          a former Scientist turned Engineer
         </p>
         <div class="flex flex-row justify-center mt-5">
           {SOCIALS?.links?.map((item) => (
