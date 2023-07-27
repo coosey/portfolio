@@ -14,11 +14,12 @@ module.exports = {
       colors: {
         primary: '#393D47',
         secondary: '#777f92',
+        nav: '#858994',
       },
       fontFamily: {
         pd: ['Playfair Display'],
         nav: ['Abril Fatface'],
-        centra: ['Centra No 1'],
+        roboto: ['Roboto', 'Space Mono']
       }
     },
   },

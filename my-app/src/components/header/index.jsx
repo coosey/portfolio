@@ -8,7 +8,7 @@ export const Header = () => {
         <p class="text-3xl lg:text-4xl pb-4 font-nav-light">
           Hello! I'm
         </p>
-        <p class="text-6xl md:text-7xl lg:text-8xl pb-4 font-centra font-medium">
+        <p class="text-6xl md:text-7xl lg:text-8xl pb-4 font-medium">
           Matthew Nguyen
         </p>
         <p class="text-3xl lg:text-4xl font-nav-light">
