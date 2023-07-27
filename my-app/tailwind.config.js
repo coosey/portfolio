@@ -19,7 +19,8 @@ module.exports = {
       fontFamily: {
         pd: ['Playfair Display'],
         nav: ['Abril Fatface'],
-        roboto: ['Roboto', 'Space Mono']
+        roboto: ['Roboto', 'Space Mono'],
+        jet: ['JetBrains Mono', 'monospace']
       }
     },
   },
