@@ -7,7 +7,7 @@ export const Hero = (props) => {
       <div className="sm: mb-10 xl:max-w-md">
         <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" className="rgw-[80%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" />
       </div>
-      <div className="text-lg font-pd-400 md:text-xl ml-10">
+      <div className="text-lg font-pd-400 md:text-2xl ml-10">
         <div className="pb-5 md:pb-0">
           <p className="pb-3">
             I am a Frontend Developer & my experiences are currently specialized in aviation - developing and maintaining
