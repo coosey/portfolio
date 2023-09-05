@@ -1,8 +1,8 @@
 
 export const SectionTitle = (props) => {
   return (
-    <div class="m-auto">
-      <h2 class={`
+    <div className="m-auto">
+      <h2 className={`
       text-4xl
       text-center
       font-bold
