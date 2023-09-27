@@ -2,22 +2,23 @@ import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
-    <div>
-      <div className="bg-primary max-w-screen-xl shadow-md p-5 m-5 mt-0">
-        <nav className="text-3xl text-white font-nav-700">
-          <ul className="flex flex-row items-center w-full h-10 space-x-5 md:w-auto md:space-x-8">
-            <li className="hover:text-nav">
+    <nav className="sticky top-0 z-10 text-3xl backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-500">
+      <div className="max-w-5xl mx-auto px-4">
+        <div className="flex items-center justify-between h-16 text-gray-900">
+          <span className="text-2xl font-semibold">Matthew Nguyen</span>
+          <ul className="flex space-x-4">
+            <li>
               <Link to="/">Home</Link>
             </li>
-            <li className="hover:text-nav">
+            <li>
               <Link to="/projects">Projects</Link>
             </li>
-            <li className="hover:text-nav">
+            <li>
               <Link to="/about">About</Link>
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </div>
+    </nav>
   )
 };

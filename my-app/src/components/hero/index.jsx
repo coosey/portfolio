@@ -5,7 +5,7 @@ export const Hero = (props) => {
   return (
     <div className="items-center h-min grid justify-between mt-20 sm:h-screen md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:text-2xl">
       <div className="sm: mb-10 xl:max-w-md">
-        <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" className="rgw-[80%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" />
+        {/* <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" className="rgw-[80%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" /> */}
       </div>
       <div className="text-lg font-pd-400 md:text-2xl ml-10">
         <div className="pb-5 md:pb-0">
