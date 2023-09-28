@@ -7,7 +7,7 @@ export const Projects = () => {
   return (
     <div className="container m-auto">
       <div className="flex justify-center pb-20">
-        <SectionTitle title="Experiences" width="210px" />
+        <SectionTitle title="Experiences" width="220px" />
       </div>
       <div className="font-satoshi m-auto ml-5 mr-5 bg-white flex flex-col flex-wrap rounded-md border p-4 text-justify">
         <div className="font-bold mb-5 text-xl">

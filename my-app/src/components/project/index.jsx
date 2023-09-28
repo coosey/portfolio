@@ -7,7 +7,7 @@ import { DATA } from '../../data/projects';
 export const Project = () => {
   return (
     <div className="mx-auto flex flex-col pt-20 pb-20">
-      <SectionTitle title="Projects" width="140px" />
+      <SectionTitle title="Projects" width="160px" />
       <div>
         {DATA?.projects?.map?.((project) => (
           <Card
