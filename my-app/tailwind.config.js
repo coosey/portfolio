@@ -19,9 +19,8 @@ module.exports = {
         nav: '#858994',
       },
       fontFamily: {
-        pd: ['Playfair Display'],
-        nav: ['Abril Fatface'],
-        roboto: ['Roboto', 'Space Mono'],
+        af: ['Abril Fatface'],
+        satoshi: ['Satoshi']
       }
     },
   },

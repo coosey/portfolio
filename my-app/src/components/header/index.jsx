@@ -3,15 +3,15 @@ import { SOCIALS } from '../../data/socials';
 
 export const Header = () => {
   return (
-    <section className="flex flex-col justify-center text-center px-5 py-5 h-min sm:h-screen">
+    <section className="flex flex-col justify-center text-center px-5 py-5 h-min sm:h-screen font-satoshi">
       <div className="pb-5 md:pb-0">
-        <p className="text-3xl lg:text-4xl pb-4 font-nav-light">
+        <p className="text-3xl lg:text-4xl pb-4 font-af-light">
           Hello! I'm
         </p>
-        <p className="text-6xl md:text-7xl lg:text-8xl pb-4 font-medium">
+        <p className="text-6xl md:text-7xl lg:text-8xl pb-4">
           Matthew Nguyen
         </p>
-        <p className="text-3xl lg:text-4xl font-nav-light">
+        <p className="text-3xl lg:text-4xl font-af-light">
           a former Scientist turned Engineer
         </p>
         <div className="flex flex-row justify-center mt-5">

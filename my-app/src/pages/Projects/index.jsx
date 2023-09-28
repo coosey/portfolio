@@ -9,12 +9,12 @@ export const Projects = () => {
       <div className="flex justify-center pb-20">
         <SectionTitle title="Experiences" width="210px" />
       </div>
-      <div className="m-auto ml-5 mr-5 bg-white flex flex-col flex-wrap rounded-md border p-4 text-justify">
-        <div className="font-bold mb-5 text-xl font-roboto">
+      <div className="font-satoshi m-auto ml-5 mr-5 bg-white flex flex-col flex-wrap rounded-md border p-4 text-justify">
+        <div className="font-bold mb-5 text-xl">
           Frontend Developer @777 Partners <span className="italic font-light">(Mar 2022 - present)</span>
         </div>
         <div>
-          <ul className="mx-3 list-disc text-left">
+          <ul className="mx-3 list-disc text-left text-lg">
             <li className="py-2">
               Developed Bonza Airline’s Passenger Service System that is used by admins & travel agents to help book flights & manage
               bookings for thousands of Australian customers

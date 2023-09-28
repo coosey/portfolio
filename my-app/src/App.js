@@ -13,7 +13,7 @@ import {
 
 function App() {
   return (
-    <div className="bg-secondary m-auto font-pd-400">
+    <div className="bg-secondary m-auto">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
