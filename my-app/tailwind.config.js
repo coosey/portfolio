@@ -6,6 +6,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        loader: 'loader 0.6s infinite alternate'
+      },
+      keyframes: {
+        loader: {
+          to: {
+            opacity: 0.1,
+            transform: 'translate3d(0, -1rem, 0)'
+          }
+        }
+      },
       screens: {
         'sm': {'min': '640px'},
         'md': {'min': '768px'},
@@ -21,7 +32,7 @@ module.exports = {
       fontFamily: {
         af: ['Abril Fatface'],
         satoshi: ['Satoshi']
-      }
+      },
     },
   },
   plugins: [
