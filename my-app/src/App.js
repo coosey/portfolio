@@ -2,16 +2,15 @@ import './assets/css/App.css';
 import './assets/css/tailwind.css';
 import { Routes, Route } from 'react-router-dom';
 import {
-  About,
-  Home,
-  Projects,
-} from './pages/index';
-import {
   NavBar,
   Footer,
   Loader,
 } from './components/index';
-import { useEffect, useState } from 'react';
+import { Suspense, lazy, useEffect, useState } from 'react';
+
+const Home = lazy(() => import('./pages/Home/index'));
+const About = lazy(() => import('./pages/About/index'));
+const Projects = lazy(() => import('./pages/Projects/index'));
 
 function App() {
   // preloader on page load
@@ -33,11 +32,13 @@ function App() {
       ) : (
         <div className="bg-secondary m-auto">
           <NavBar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-          </Routes>
+          <Suspense fallback={<Loader />}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+            </Routes>
+          </Suspense>
           <Footer />
         </div>
       )}

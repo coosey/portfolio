@@ -7,6 +7,7 @@ export const DATA = {
       info: "I developed Bonza's Passenger Service System that is used by admins and travel agents to book and manage passenger flights. The link will be directed to the Fly Bonza mobile app.",
       link: "https://www.flybonza.com",
       linkText: "Click to view",
+      image: require("../assets/images/bonza.png"),
     },
     {
       key: 2,
@@ -15,6 +16,7 @@ export const DATA = {
       info: "I am currently developing new features and maintaining Flair's website by working fixing bugs/updating UI",
       link: "https://flyflair.com",
       linkText: "Click to view",
+      image: require("../assets/images/flyflair.png"),
     }
   ]
 }

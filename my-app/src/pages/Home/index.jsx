@@ -4,8 +4,8 @@ import {
   Project,
 } from '../../components/index.js';
 
-export const Home = () => {
-  // Home Page: container for every page
+const Home = () => {
+
   return (
     <div className="container m-auto">
       <Header />
@@ -14,3 +14,5 @@ export const Home = () => {
     </div>
   )
 };
+
+export default Home;

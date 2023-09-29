@@ -17,7 +17,7 @@ export const Header = () => {
         <div className="flex flex-row justify-center mt-5">
           {SOCIALS?.links?.map?.((item) => (
             <div className="xs:text-lg m-3">
-              <Icon icon={item?.icon} link={item?.link} />
+              <Icon icon={item?.icon} link={item?.link} label={item?.label} />
             </div>
           ))}
         </div>

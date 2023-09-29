@@ -17,6 +17,7 @@ export const Project = () => {
             info={project?.info}
             link={project?.link}
             linkText={project?.linkText}
+            image={project?.image}
           />
         ))}
       </div>

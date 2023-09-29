@@ -2,10 +2,13 @@ import {
   Hero,
 } from '../../components/index';
 
-export const About = () => {
+const About = () => {
+
   return (
     <div className="container m-auto">
       <Hero socialIcons={true} />
     </div>
   )
 };
+
+export default About;

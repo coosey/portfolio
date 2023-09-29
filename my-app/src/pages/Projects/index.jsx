@@ -3,7 +3,8 @@ import {
 } from '../../components/index.js';
 import { SectionTitle } from '../../components/index';
 
-export const Projects = () => {
+const Projects = () => {
+
   return (
     <div className="container m-auto">
       <div className="flex justify-center pb-20">
@@ -37,3 +38,5 @@ export const Projects = () => {
     </div>
   )
 };
+
+export default Projects;
