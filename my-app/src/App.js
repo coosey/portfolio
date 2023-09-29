@@ -10,7 +10,7 @@ import { Suspense, lazy, useEffect, useState } from 'react';
 
 const Home = lazy(() => import('./pages/Home/index'));
 const About = lazy(() => import('./pages/About/index'));
-const Projects = lazy(() => import('./pages/Projects/index'));
+const Experience = lazy(() => import('./pages/Experience/index'));
 
 function App() {
   // preloader on page load
@@ -36,7 +36,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/projects" element={<Projects />} />
+              <Route path="/experience" element={<Experience />} />
             </Routes>
           </Suspense>
           <Footer />

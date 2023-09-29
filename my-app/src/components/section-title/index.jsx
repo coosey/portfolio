@@ -8,7 +8,6 @@ export const SectionTitle = (props) => {
       font-extralight
       mb-5
       border-b-[2px]
-      w-[${props?.width}]
       border-primary
       pt-20
       `}

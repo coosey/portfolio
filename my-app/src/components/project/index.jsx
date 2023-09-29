@@ -2,14 +2,14 @@ import {
   Card,
   SectionTitle
 } from '.././index';
-import { DATA } from '../../data/projects';
+import { DATA } from '../../data/experience';
 
 export const Project = () => {
   return (
     <div className="mx-auto flex flex-col pt-20 pb-20">
-      <SectionTitle title="Projects" width="160px" />
+      <SectionTitle title="Experience" />
       <div>
-        {DATA?.projects?.map?.((project) => (
+        {DATA?.experience?.map?.((project) => (
           <Card
             key={project?.key}
             title={project?.title}
@@ -18,6 +18,7 @@ export const Project = () => {
             link={project?.link}
             linkText={project?.linkText}
             image={project?.image}
+            technology={project?.technology}
           />
         ))}
       </div>

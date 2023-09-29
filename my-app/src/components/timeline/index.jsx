@@ -1,21 +1,13 @@
-import {
-  Project
-} from '../../components/index.js';
-import { SectionTitle } from '../../components/index';
 
-const Projects = () => {
-
+export const Timeline = () => {
   return (
-    <div className="container m-auto">
-      <div className="flex justify-center pb-20">
-        <SectionTitle title="Experiences" width="220px" />
-      </div>
-      <div className="font-satoshi m-auto ml-5 mr-5 bg-white flex flex-col flex-wrap rounded-md border p-4 text-justify">
-        <div className="font-bold mb-5 text-xl">
-          Frontend Developer @777 Partners <span className="italic font-light">(Mar 2022 - present)</span>
-        </div>
-        <div>
-          <ul className="mx-3 list-disc text-left text-lg">
+    <section>
+      <ol class="relative border-l border-gray-200 dark:border-gray-700">
+        <li class="ml-4">
+          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+          <time class="mb-1 text-lg font-normal leading-none dark:text-gray-500">March 2022 - present</time>
+          <h3 class="text-2xl font-semibold text-gray-900">Frontend Developer</h3>
+          <ul className="mx-3 leading-6 list-disc font-medium text-left text-xl text-gray-800">
             <li className="py-2">
               Developed Bonza Airline’s Passenger Service System that is used by admins & travel agents to help book flights & manage
               bookings for thousands of Australian customers
@@ -32,11 +24,8 @@ const Projects = () => {
               business analysts, product managers, and developers
             </li>
           </ul>
-        </div>
-      </div>
-      <Project />
-    </div>
+        </li>
+      </ol>
+    </section>
   )
-};
-
-export default Projects;
+}

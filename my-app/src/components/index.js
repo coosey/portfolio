@@ -9,3 +9,4 @@ export * from './section-title';
 export * from './icon';
 export * from './loader';
 export * from './hamburger';
+export * from './timeline';
