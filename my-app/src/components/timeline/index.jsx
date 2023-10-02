@@ -4,9 +4,9 @@ export const Timeline = () => {
       <ol class="relative border-l border-gray-200 dark:border-gray-700">
         <li class="ml-4">
           <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-          <time class="mb-1 text-lg font-normal leading-none text-black">March 2022 - present</time>
-          <h3 class="text-2xl font-semibold text-gray-900">Frontend Developer</h3>
-          <ul className="mx-3 leading-6 list-disc font-medium text-left text-xl text-gray-800">
+          <time class="mb-1 text-lg font-montserrat leading-none text-gray-900">March 2022 - present</time>
+          <h3 class="text-2xl font-semibold text-white">Frontend Developer</h3>
+          <ul className="mx-3 leading-6 list-disc font-rale font-light text-left text-xl text-black">
             <li className="py-2">
               Developed a Passenger Service System (internal Ecommerce platform) for admins & travel agents to help book flights & manage
               bookings for thousands of Australian customers which generated over 600k AUD within the first week of sales
