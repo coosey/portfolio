@@ -23,9 +23,9 @@ export const Hero = (props) => {
             <Button downloadBtn downloadBtnName="Download CSV" btnStyle />
           </div>
           {props?.socialIcons && (
-            <div className="flex flex-row justify-center mt-5">
+            <div className="flex flex-row justify-center py-3">
               {SOCIALS?.links?.map?.((item) => (
-                <div className="mr-5">
+                <div className="text-center px-3 py-5">
                   <Icon icon={item?.icon} link={item?.link} />
                 </div>
               ))}

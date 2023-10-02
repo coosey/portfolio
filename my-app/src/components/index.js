@@ -9,4 +9,5 @@ export * from './section-title';
 export * from './icon';
 export * from './loader';
 export * from './hamburger';
+export * from './hamburger-open';
 export * from './timeline';
