@@ -1,8 +1,8 @@
 
 export const Footer = () => {
   return (
-    <footer className="bg-primary text-white text-center sm:h-[100%]">
-      <p>Matthew Nguyen © 2023 | all rights reserved</p>
+    <footer className="bg-primary m-auto text-white text-center p-6 h-[10%]">
+      <span>Matthew Nguyen © 2023 | all rights reserved</span>
     </footer>
   )
 }

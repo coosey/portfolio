@@ -7,7 +7,7 @@ import { DATA } from '../../data/experience';
 export const Project = () => {
   return (
     <div className="mx-auto flex flex-col pt-20 pb-20">
-      <SectionTitle title="Experience" />
+      <SectionTitle title="Experiences" />
       <div>
         {DATA?.experience?.map?.((project) => (
           <Card

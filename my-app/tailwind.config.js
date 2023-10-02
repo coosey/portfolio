@@ -27,11 +27,12 @@ module.exports = {
       colors: {
         primary: '#393D47',
         secondary: '#777f92',
-        nav: '#858994',
       },
       fontFamily: {
-        af: ['Abril Fatface'],
-        satoshi: ['Satoshi']
+        satoshi: ['Satoshi'],
+        roboto: ['Roboto', 'sans-seri'],
+        rale: ['Raleway', 'sans-serif'],
+        montserrat: ['Montserrat', 'serif']
       },
     },
   },

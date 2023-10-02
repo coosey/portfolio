@@ -24,13 +24,13 @@ function App() {
   }, []);
 
   return (
-    <div className="h-full w-[100%]">
+    <div className="h-full w-full">
       {loading ? (
         <div className="bg-gray-500">
           <Loader />
         </div>
       ) : (
-        <div className="bg-secondary m-auto">
+        <div className="bg-secondary">
           <NavBar />
           <Suspense fallback={<Loader />}>
             <Routes>

@@ -9,13 +9,13 @@ export const Hero = (props) => {
           <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" className="rgw-[85%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" />
         </div>
         <div className="py-1 lg:ml-10 text-lg">
-          <div className="text-xl md:text-2xl text-center">
-            <p className="px-3 py-2 text-gray-900 font-light">
+          <div className="text-black text-lg md:text-xl text-center font-montserrat">
+            <p className="px-3 py-2">
               I am a Frontend Developer & my experiences are currently specialized in aviation - developing and maintaining
               Bonza Airline's Passenger Service System and Flair Airline.
             </p>
-            <p className="px-3 py-2 text-gray-900 font-light">
-              When I am not working on fixing bugs or working on new features, I love to expand my knowledge and learn about new technology, discover better ways to improve my code, and explore innovative
+            <p className="px-3 py-2">
+              When I am not working on fixing bugs or working on new features, I love to expand my knowledge and learn more about new technology, discover better ways to improve my code, and explore innovative
               ways to create a better and exceptional user experience.
             </p>
           </div>

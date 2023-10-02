@@ -18,7 +18,7 @@ export const DATA = {
       link: "https://flyflair.com",
       linkText: "Click to view",
       image: require("../assets/images/flyflair.png"),
-      technology: ['React', 'TypeScript', 'MobX', 'Node.js', 'Bootstrap', 'SCSS']
+      technology: ['React', 'TypeScript', 'MobX', 'Next.js', 'Node.js', 'Bootstrap', 'SCSS']
     }
   ]
 }
