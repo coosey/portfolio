@@ -5,11 +5,13 @@ export const SectionTitle = (props) => {
       <h2 className={`
       text-4xl
       text-center
-      font-extralight
-      mb-5
+      mb-2
       border-b-[2px]
-      border-primary
+      border-black
       pt-20
+      text-white
+      font-rale
+      font-light
       `}
       >
         {props?.title}

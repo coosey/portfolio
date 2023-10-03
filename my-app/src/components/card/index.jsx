@@ -8,7 +8,7 @@ export const Card = (props) => {
         <div className="flex flex-row justify-between items-center pb-[20px]">
           <div className="font-satoshi font-bold text-2xl">{props?.title}</div>
           <div className="xs:w-1/4 w-1/5 flex justify-end">
-            <img src={props?.image} alt={props?.title} className="max-h-[2.5rem]" />
+            <img src={props?.image} alt={props?.title} className="max-h-[2.5rem]" width="75px" height="75px" />
           </div>
         </div>
         <div className="font-rale font-light text-lg mb-3">{props?.titleInfo}</div>
