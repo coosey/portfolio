@@ -4,7 +4,7 @@ import {
 
 const About = () => {
   return (
-    <div className="container m-auto">
+    <div className="m-auto">
       <Hero socialIcons={true} />
     </div>
   )

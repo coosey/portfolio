@@ -8,7 +8,7 @@ export const Hero = (props) => {
         <div className="p-3 xs:mb-10 md:p-15 xl:max-w-lg">
           <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" className="rgw-[85%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" />
         </div>
-        <div className="py-1 lg:ml-10 text-lg">
+        <div className="py-1 px-2 lg:ml-10 text-lg">
           <div className="text-black text-lg md:text-xl text-center font-montserrat">
             <p className="px-3 py-2">
               I am a Frontend Developer & my experiences are currently specialized in aviation - developing and maintaining
@@ -19,7 +19,7 @@ export const Hero = (props) => {
               ways to create a better and exceptional user experience.
             </p>
           </div>
-          <div className="pt-5 flex flex-wrap justify-center sm:flex-col">
+          <div className="pt-5 flex flex-wrap justify-center">
             <Button downloadBtn downloadBtnName="Download CSV" btnStyle />
           </div>
           {props?.socialIcons && (
