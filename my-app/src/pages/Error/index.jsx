@@ -10,7 +10,7 @@ const ErrorPage = () => {
   };
 
   return (
-    <div className="h-[100vh] m-auto flex justify-center text-center">
+    <div className="h-[100vh] container m-auto flex justify-center text-center">
       <div className="mx-auto flex flex-col items-center justify-center gap-[1rem]">
         <p className="text-6xl md:text-8xl text-montserrat font-semibold">Oops!</p>
         <p className="text-lg md:text-2xl text-white font-rale font-extralight">The page you're looking for could not be found</p>
