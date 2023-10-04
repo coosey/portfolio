@@ -19,6 +19,7 @@ export const Button = (props) => {
       {props?.btn && (
         <button
           className={props?.btnStyle ? button_style : props?.customBtnStyle}
+          onClick={() => props?.onBtnClick()}
         >
           {props?.btnName}
         </button>

@@ -17,6 +17,7 @@ import {
 const Home = lazy(() => import('./pages/Home/index'));
 const About = lazy(() => import('./pages/About/index'));
 const Experience = lazy(() => import('./pages/Experience/index'));
+const Error = lazy(() => import('./pages/Error/index'));
 
 function App() {
   const location = useLocation();
@@ -46,6 +47,7 @@ function App() {
           <NavBar />
           <Suspense fallback={<Loader />}>
             <Routes>
+              <Route path="*" element={<Error />} />
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/experience" element={<Experience />} />
