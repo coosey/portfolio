@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { NavBarLinks } from "../navbar-links";
 
 export const HamburgerOpen = (props) => {
   return (
@@ -10,17 +11,11 @@ export const HamburgerOpen = (props) => {
           </svg>
         </button>
       </div>
-      <ul className="flex flex-col justify-center items-center pt-[3rem] text-center gap-[3rem] text-white my-8 uppercase font-light">
-        <li className="pb-10 md:pb-0" onClick={() => props?.setOpen(false)}>
-          <Link to="/">Home</Link>
-        </li>
-        <li className="pb-10 md:pb-0" onClick={() => props?.setOpen(false)}>
-          <Link to="/experience">Experience</Link>
-        </li>
-        <li className="pb-10 md:pb-0" onClick={() => props?.setOpen(false)}>
-          <Link to="/about">About</Link>
-        </li>
-      </ul>
+      <NavBarLinks 
+        ul_className="flex flex-col justify-center items-center pt-[3rem] text-center gap-[3rem] text-white my-8 uppercase font-light"
+        li_className="pb-10 md:pb-0"
+        setOpen={props?.setOpen}
+      />
     </div>
   )
 }
