@@ -6,9 +6,9 @@ export const Card = (props) => {
     <section className="mx-auto p-6 grid gap-4 lg:w-[80%] sm:w-[95%]">
       <div className="col-span-1 flex flex-col bg-white shadow-xl rounded-lg border-2 p-4">
         <div className="flex flex-row justify-between items-center pb-[20px]">
-          <div className="font-satoshi font-bold text-2xl">{props?.title}</div>
+          <div className="font-rale font-bold text-2xl">{props?.title}</div>
           <div className="xs:w-1/4 w-1/5 flex justify-end">
-            <img src={props?.image} alt={props?.title} className="max-h-[2.5rem]" width="75px" height="75px" />
+            <img src={props?.image} alt={props?.title} title={props?.title} loading="lazy" className="max-h-[2.5rem]" width="75px" height="75px" />
           </div>
         </div>
         <div className="font-rale font-light text-lg mb-3">{props?.titleInfo}</div>
