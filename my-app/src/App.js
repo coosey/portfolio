@@ -37,13 +37,13 @@ function App() {
   }, [location.pathname]);
 
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-[100%] bg-secondary">
       {loading ? (
         <div className="bg-gray-500">
           <Loader />
         </div>
       ) : (
-        <div className="bg-secondary">
+        <>
           <NavBar />
           <Suspense fallback={<Loader />}>
             <Routes>
@@ -54,7 +54,7 @@ function App() {
             </Routes>
           </Suspense>
           <Footer />
-        </div>
+        </>
       )}
     </div>
   );

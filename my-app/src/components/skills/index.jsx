@@ -3,7 +3,7 @@ import { SectionTitle } from "../section-title"
 
 export const Skills = () => {
   return (
-    <div className="container m-auto flex flex-col pt-20 pb-20">
+    <div className="container m-auto flex flex-col py-20">
       <SectionTitle title="Technologies" />
       <div className="flex flex-row flex-wrap px-10 py-10 gap-[4rem] justify-center items-center">
         {DEVICONS?.map?.((skill) => (

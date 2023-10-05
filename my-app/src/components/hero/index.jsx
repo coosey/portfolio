@@ -3,9 +3,9 @@ import { SOCIALS } from '../../data/socials';
 
 export const Hero = (props) => {
   return (
-    <div className="md:px-15 lg:px-20">
-      <div className="items-center h-min grid justify-between mt-10 sm:h-screen lg:grid-cols-2 xl:text-2xl">
-        <div className="p-3 xs:mb-10 md:p-15 xl:max-w-lg">
+    <div className="m-auto py-20 lg:px-20">
+      <div className="items-center h-min grid justify-between mt-10 lg:grid-cols-2 xl:text-2xl">
+        <div className="p-3 md:p-15 xl:max-w-lg">
           <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" className="rgw-[85%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" />
         </div>
         <div className="py-1 px-2 lg:ml-10 text-lg">
