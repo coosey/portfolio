@@ -11,7 +11,7 @@ export const Header = () => {
         <p className="text-6xl md:text-8xl lg:text-9xl font-roboto font-semibold text-gray-900 pb-4 leading-[0.75]">
           Matthew Nguyen
         </p>
-        <p className="text-xl lg:text-3xl text-gray-900 font-roboto">
+        <p className="text-xl lg:text-3xl text-gray-900">
           a former Scientist turned Engineer
         </p>
         <div className="flex flex-row justify-center mt-2">
