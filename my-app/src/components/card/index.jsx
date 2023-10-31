@@ -18,8 +18,8 @@ export const Card = (props) => {
           <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
         </div>
         <div className="flex flex-row flex-wrap gap-2">
-          {props?.technology?.map?.((name) => (
-            <div className="flex justify-start md:mb-2 text-start">
+          {props?.technology?.map?.((name, idx) => (
+            <div key={idx} className="flex justify-start md:mb-2 text-start">
               <div className="font-light font-rale inline-block bg-neutral-200 my-2 pb-1.5 px-4 pt-1.5 rounded-full text-xs">
                 {name}
               </div>

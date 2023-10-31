@@ -32,7 +32,7 @@ module.exports = {
         satoshi: ['Satoshi'],
         roboto: ['Roboto', 'sans-seri'],
         rale: ['Raleway', 'sans-serif'],
-        montserrat: ['Montserrat', 'serif']
+        montserrat: ['Montserrat', 'sans-serif']
       },
     },
   },

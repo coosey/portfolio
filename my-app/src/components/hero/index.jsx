@@ -6,16 +6,16 @@ export const Hero = (props) => {
     <div className="m-auto py-20 lg:px-20">
       <div className="items-center h-min grid justify-between mt-10 lg:grid-cols-2 xl:text-2xl">
         <div className="p-3 md:p-15 xl:max-w-lg">
-          <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" className="rgw-[85%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" />
+          <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" width="100%" height="100%" className="rgw-[85%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" />
         </div>
         <div className="py-1 px-2 lg:ml-10 text-lg">
-          <div className="text-black text-lg md:text-xl text-center font-montserrat">
+          <div className="text-black text-[1.2rem] text-center font-montserrat leading-normal">
             <p className="px-3 py-2">
-              I am a Frontend Developer & my experiences are currently specialized in aviation - developing and maintaining
-              Bonza Airline's Passenger Service System and Flair Airline.
+              I am a Frontend Developer & my experiences are currently specialized in aviation - I have previously developed Bonza Airline's Passenger Service System, and now I am currently maintaining
+              or creating new features for Flair Airline.
             </p>
             <p className="px-3 py-2">
-              When I am not working on fixing bugs or working on new features, I love to expand my knowledge and learn more about new technology, discover better ways to improve my code, and explore innovative
+              When I am not working on fixing bugs or new features, I love to expand my knowledge and learn more about new technology, discover better ways to improve my code, and explore innovative
               ways to create a better and exceptional user experience.
             </p>
           </div>

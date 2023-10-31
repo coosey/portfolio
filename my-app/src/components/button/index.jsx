@@ -1,4 +1,7 @@
-const button_style = "text-xl py-2 px-4 m-2 bg-primary text-white transition-all duration-500 transform hover:opacity-90 hover:shadow-lg hover:scale-105";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+
+const button_style = "rounded-lg border-black shadow text-xl py-2 p-[0.7rem] px-4 m-2 bg-primary text-white transition-all duration-500 transform hover:opacity-90 hover:shadow-lg hover:scale-105";
 
 export const Button = (props) => {
 
@@ -30,6 +33,7 @@ export const Button = (props) => {
           className={props?.btnStyle ? button_style : props?.customDownloadBtnStyle}
         >
           {props?.downloadBtnName}
+          <FontAwesomeIcon icon={faDownload} className="pl-3" />
         </button>
       )}
     </>

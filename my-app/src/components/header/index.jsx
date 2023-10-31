@@ -15,8 +15,8 @@ export const Header = () => {
           a former Scientist turned Engineer
         </p>
         <div className="flex flex-row justify-center mt-2">
-          {SOCIALS?.links?.map?.((item) => (
-            <div className="xs:text-xs m-3">
+          {SOCIALS?.links?.map?.((item, idx) => (
+            <div key={idx} className="xs:text-xs m-3">
               <Icon icon={item?.icon} link={item?.link} label={item?.label} />
             </div>
           ))}
