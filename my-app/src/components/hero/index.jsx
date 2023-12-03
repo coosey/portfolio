@@ -4,12 +4,12 @@ import { SOCIALS } from '../../data/socials';
 export const Hero = (props) => {
   return (
     <div className="m-auto py-20 lg:px-20">
-      <div className="items-center h-min grid justify-between mt-10 lg:grid-cols-2 xl:text-2xl">
-        <div className="p-3 md:p-15 xl:max-w-lg">
-          <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" width="100%" height="100%" className="rgw-[85%] rounded-xl drop-shadow-2xl mx-auto xl:grid-cols-2" />
+      <div className="items-start h-min grid justify-between mt-10 lg:grid-cols-2 xl:text-2xl">
+        <div className="p-3 md:p-15">
+          <img src={require("../../assets/images/option-1.png")} alt="Matthew Nguyen" width="auto" height="auto" className="rgw-[85%] rounded-xl drop-shadow-2xl mx-auto" />
         </div>
         <div className="py-1 px-2 lg:ml-10 text-lg">
-          <div className="text-black text-[1.2rem] text-center font-montserrat leading-normal">
+          <div className="text-black text-[1.15rem] text-center font-montserrat leading-normal">
             <p className="px-3 py-2">
               I am a Frontend Developer & my experiences are currently specialized in aviation - I have previously developed Bonza Airline's Passenger Service System, and now I am currently maintaining
               or creating new features for Flair Airline.
